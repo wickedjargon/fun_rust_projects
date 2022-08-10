@@ -23,4 +23,4 @@
 | Byte (u8 only)  | b'A'        |
 
 # Turbofish
-- S::<T>    --    Turbofish STD call site type disambiguation, e.g. f::<u32>().
+- `S::<T>`    --    Turbofish STD call site type disambiguation, e.g. `f::<u32>()`
