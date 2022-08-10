@@ -1,7 +1,7 @@
 # Number types in rust
-Unsigned Integers: u8, u16, u32, u64, u128
-Signed Integers: i8, i16, i32, i64, i128
-Floating Point Numbers: f32, f64
+- Unsigned Integers: u8, u16, u32, u64, u128
+- Signed Integers: i8, i16, i32, i64, i128
+- Floating Point Numbers: f32, f64
 
 # Integer Types in Rust
 | length  | signed | Unsigned |
@@ -21,3 +21,6 @@ Floating Point Numbers: f32, f64
 | Octal           | O077        |
 | Binary          | 0b1111_0000 |
 | Byte (u8 only)  | b'A'        |
+
+# Turbofish
+- S::<T>    --    Turbofish STD call site type disambiguation, e.g. f::<u32>().
