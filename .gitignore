@@ -1,0 +1,5 @@
+/project/
+target/
+.projectile
+Cargo.lock
+~/
