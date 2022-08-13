@@ -8,7 +8,7 @@ fn main() {
     let secret_number = rand::thread_rng().gen_range(lower_limit, upper_limit);
 
     loop {
-        println!("guess a number between {} and {}", lower_limit, upper_limit);
+        println!("guess a number between {} and {}", lower_limit, upper_limit - 1);
         let mut guess = String::new();
         io::stdin().read_line(&mut guess).expect("Failed to read line");
 
